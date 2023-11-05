@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/calculator.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculator</h1>
+            <div class="navBar">
+                <nav>
+                    <a href="index.html">Main</a>
+                    <a href="chat.html">Chat</a>
+                    <a href="calculator.html">Calculator</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="calculatorDiv">
+                <div id="num1div">
+                    <p>Input num 1:</p>
+                    <input type="text" placeholder="Num 1" id="inputField03">
+                    <p id="result1"></p>
+                </div>
+    
+                <div id="num1div">
+                    <p>Input num 2:</p>
+                    <input type="text" placeholder="Num 2" id="inputField04">
+                </div>
+            </div>
+
+            <div class="calculatorDiv">
+                <button onclick="getNumbers('+')">+</button>
+                <button onclick="getNumbers('-')">-</button>
+                <button onclick="getNumbers('*')">*</button>
+                <button onclick="getNumbers('/')">/</button>
+            </div>
+
+            <p id="resultField">Result:</p>
+        </main>
+    
+        <footer>
+            <div id="footer-container">
+                <h1>Footer</h1>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
